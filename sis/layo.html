@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>IMPERIAL</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/pricing/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+
+<div class="container py-3">
+  <header>
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+        
+        <span class="fs-4" style="font-weight: 640;">IMPERIAL THRIFT</span>
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Home</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enquiry</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Services</a>
+        <a class="py-2 text-dark text-decoration-none" href="#">Contact</a>
+      </nav>
+    </div>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h2>Find Your Next Treasure</h2>
+      <p>Discover unique and affordable items for your wardrobe.</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      body {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        color: #5a5a5a;
+      }
+
+
+      /* CUSTOMIZE THE CAROUSEL
+      -------------------------------------------------- */
+
+      /* Carousel base class */
+      .carousel {
+        margin-bottom: 4rem;
+      }
+      /* Since positioning the image, we need to help out the caption */
+      .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+      }
+
+      /* Declare heights because of positioning of img element */
+      .carousel-item {
+        height: 32rem;
+      }
+      .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
+      }
+
+
+      /* MARKETING CONTENT
+      -------------------------------------------------- */
+
+      /* Center align the text within the three columns below the carousel */
+      .marketing .col-lg-4 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+      .marketing h2 {
+        font-weight: 400;
+      }
+      /* rtl:begin:ignore */
+      .marketing .col-lg-4 p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+      }
+      /* rtl:end:ignore */
+
+
+      /* Featurettes
+      ------------------------- */
+
+      .featurette-divider {
+        margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+      }
+
+      /* Thin out the marketing headings */
+      .featurette-heading {
+        font-weight: 300;
+        line-height: 1;
+        /* rtl:remove */
+        letter-spacing: -.05rem;
+      }
+
+
+      /* RESPONSIVE CSS
+      -------------------------------------------------- */
+
+      @media (min-width: 40em) {
+        /* Bump up size of carousel content */
+        .carousel-caption p {
+          margin-bottom: 1.25rem;
+          font-size: 1.25rem;
+          line-height: 1.4;
+        }
+
+        .featurette-heading {
+          font-size: 50px;
+        }
+      }
+
+      @media (min-width: 62em) {
+        .featurette-heading {
+          margin-top: 7rem;
+        }
+      }
+      .section-p1{
+          padding: 40px 80px;
+        }
+        #feature .fe-box{
+          width: 180px;
+          text-align: center;
+          padding: 25px 15px;
+          box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+          border: 1px solid #cce7d0;
+          border-radius: 4px;
+          margin: 15px 0;
+        }
+        #feature .fe-box:hover{
+          box-shadow: 10px 20px 34px rgba(0, 0, 0, 0.03);
+        }
+        .newsletter {
+          margin-top: 4rem;
+      }
+
+      .newsletter form {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .newsletter input[type="email"] {
+          padding: 0.8rem;
+          width: 300px;
+          margin-right: 1rem;
+      }
+
+      footer {
+          text-align: center;
+          padding: 2rem;
+          background-color: white;
+          color: white;
+      }
+
+      .social-links a {
+          margin-right: 1rem;
+      }
+      nav ul {
+          list-style: none;
+      }
+
+      nav ul li {
+          display: inline;
+          margin-right: 1rem;
+      }
+
+      nav ul li a {
+          color: black;
+          text-decoration: none;
+      }
+    </style>
+
+      
+      <!-- Custom styles for this template -->
+      <link href="pricing.css" rel="stylesheet">
+    <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><image xlink:href="black-friday-sales-concept-overjoyed-dark-skinned-woman-has-curly-hair-smiles-broadly-holds-bouquet.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" /></svg>
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Fashion Wears.</h1>
+              <p>Get decent and latest lady fashion wears from our store.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Contact us now</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><image xlink:href="small-grocery-cart-with-gift-boxes-laptop.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" /></svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Nationwide Delivery and Consumer Satisfaction.</h1>
+              <p>Contact us now.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><image xlink:href="flat-lay-black-friday-tags-with-shopping-cart.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" /></svg>
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Accountable and Professional.</h1>
+              <p>We are accountable to our customers and we try our very best to deliver the best.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Contact us now.</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <section class="available-goods">
+        <h2>Available Products</h2>
+        <div id="products-container" class="products-container">
+            <!-- Products will be dynamically generated here -->
+        </div>
+    </section>
+
+    <hr>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="thumbnail" src="second.jpeg">
+            <div class="box-element product">
+                <h6><strong>Skirt and blouse</strong> </h6>
+                <hr>
+                <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="">View</a>
+                <h4 style="display: inline-block;float: right;" >$21.09</h4>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img class="thumbnail" src="second.jpeg">
+            <div class="box-element product">
+                <h6><strong>Skirt and blouse</strong> </h6>
+                <hr>
+                <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="">View</a>
+                <h4 style="display: inline-block;float: right;" >$21.09</h4>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img class="thumbnail" src="second.jpeg">
+            <div class="box-element product">
+                <h6><strong>Skirt and blouse</strong> </h6>
+                <hr>
+                <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="">View</a>
+                <h4 style="display: inline-block;float: right;" >$21.09</h4>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img class="thumbnail" src="second.jpeg">
+            <div class="box-element product">
+                <h6><strong>Skirt and blouse</strong> </h6>
+                <hr>
+                <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="">View</a>
+                <h4 style="display: inline-block;float: right;" >$21.09</h4>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img class="thumbnail" src="second.jpeg">
+            <div class="box-element product">
+                <h6><strong>Skirt and blouse</strong> </h6>
+                <hr>
+                <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="">View</a>
+                <h4 style="display: inline-block;float: right;" >$21.09</h4>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img class="thumbnail" src="second.jpeg">
+            <div class="box-element product">
+                <h6><strong>Skirt and blouse</strong> </h6>
+                <hr>
+                <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="">View</a>
+                <h4 style="display: inline-block;float: right;" >$21.09</h4>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" style="padding-top: 70px;">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><image xlink:href="IMG_7716.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" /></svg>
+
+          <h2>CUSTOMER'S REVIEW</h2>
+          <p>Contact us and check out our Facebook Page</p>
+          <p><a class="btn btn-secondary" href="#">View page &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><image xlink:href="IMG_7717.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" /></svg>
+
+          <h2>IMPERIAL THRIFTBYLAYO</h2>
+          <p>Follow us on Instagram for more reviews, contact us and also view our current and available wears.</p>
+          <p><a class="btn btn-secondary" href="#">View page &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><image xlink:href="IMG_7715.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" /></svg>
+          <h2>CUSTOMER'S REVIEW</h2>
+          <p>Contact us and check out our Facebook Page</p>
+          <p><a class="btn btn-secondary" href="#">View page &raquo;</a></p>
+        </div>
+    </div>
+
+    <section class="newsletter">
+        <h2 style="text-align: center;">Subscribe to Our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="social-links">
+        <a href="#"><img src="facebook.png" width="50px" alt="Facebook"></a>
+        <a href="#"><img src="twitter.png" width="50px" alt="Twitter"></a>
+        <a href="#"><img src="insta.jpeg" width="50px" alt="Instagram"></a>
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+<hr>
+
+</html>
